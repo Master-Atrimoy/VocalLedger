@@ -1,0 +1,6 @@
+name: mistral
+model_id: "mistral:latest"
+temperature: 0.0
+max_tokens: 512
+base_url: "http://localhost:11434"
+request_timeout: 120

@@ -1,0 +1,28 @@
+defaults:
+  - model: mistral
+  - database: sqlite
+  - whisper: base
+  - _self_
+
+app:
+  name: "Voice Expense Tracker"
+  version: "1.0.0"
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+
+frontend:
+  api_url: "http://localhost:8000"
+
+extraction:
+  max_retries: 2
+  categories:
+    - Food
+    - Transport
+    - Shopping
+    - Bills
+    - Health
+    - Entertainment
+    - Income
+    - Other

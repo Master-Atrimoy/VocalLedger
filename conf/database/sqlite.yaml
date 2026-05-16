@@ -1,0 +1,2 @@
+url: "sqlite:///./expenses.db"
+echo: false
